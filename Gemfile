@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2'
+gem 'rails'#, '~> 4.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.6'
 # Use SCSS for stylesheets
@@ -27,6 +27,7 @@ group :development, :test do
   gem 'byebug'
   gem 'spring'
   gem 'rspec-rails'
+  gem 'pry-rails'
   gem 'factory_bot_rails', '~>4.8.2'
   gem 'capybara'
   gem 'database_cleaner'
